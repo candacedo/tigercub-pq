@@ -1,2 +1,18 @@
-# tigercub-pq
-TigerCub, an accessible PocketQube platform.
+# TigerCub PocketQube Platform
+TigerCub, an accessible, mission-agnostic PocketQube platform.
+
+TigerCub is a satellite bus in the PocketQube form factor, designed to be accessible to students and amateur nanosatellite developers. It uses primarily commercial-off-the-shelf (COTS) components and relatively simple custom-designed PCBs, lowering barriers of entry for developers who are venturing into the PocketQube world. 
+
+I developed TigerCub for my undergraduate senior independent work. The vast majority of design work is complete and some subsystems have been tested in laboratory environments, but the satellite bus has yet to undergo full functional testing and testing in flight-like environments. Please use at your own risk.     
+
+## Technical Overview
+TigerCub includes the following subsystems:
+* on-board computer and attitude determination system,
+* electrical power system,
+* radio communication system, and 
+* chassis.
+
+The on-board computer/attitude determination system features an Arduino-programmable Teensy 4.0 as well as a COTS IMU and COTS MicroSD storage from SparkFun. The communication system uses the RockBLOCK 9603, a compact and lightweight communications module that transmits and receives via the Iridium network. The electrical power system is composed of a power management and distribution module designed by BHDynamics, custom-designed solar panels, and a Lithium-ion battery. These subsystems are all integrated into a sheet-metal chassis, with additional space for a payload. 
+
+## Documentation
+A brief User's Guide is located in this repository's Wiki. For additional technical and operational details, reach out to cdo32 \[at\] gatech \[dot\] edu or mgalvin \[at\] princeton \[dot\] edu for a full copy of TigerCub's technical report. 
