@@ -14,5 +14,7 @@ TigerCub includes the following subsystems:
 
 The on-board computer/attitude determination system features an Arduino-programmable Teensy 4.0 as well as a COTS IMU and COTS MicroSD storage from SparkFun. The communication system uses the RockBLOCK 9603, a compact and lightweight communications module that transmits and receives via the Iridium network. The electrical power system is composed of a power management and distribution module designed by BHDynamics, custom-designed solar panels, and a Lithium-ion battery. These subsystems are all integrated into a sheet-metal chassis, with additional space for a payload. 
 
+All CAD was created in PTC Creo, which is free for students. All schematics and PCB designs were created in KiCAD, a free EDA software. 
+
 ## Documentation
-A brief User's Guide is located in this repository's Wiki. For additional technical and operational details, reach out to cdo32 \[at\] gatech \[dot\] edu or mgalvin \[at\] princeton \[dot\] edu for a full copy of TigerCub's technical report. 
+A brief User's Guide is located in this repository's Wiki. For additional technical and operational details, including design decisions, bill of materials, power and thermal analyses, and sample code, reach out to cdo32 \[at\] gatech \[dot\] edu or mgalvin \[at\] princeton \[dot\] edu for a full copy of TigerCub's technical report. 
