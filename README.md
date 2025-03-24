@@ -17,7 +17,7 @@ The on-board computer/attitude determination system features an Arduino-programm
 All CAD was created in PTC Creo Parametric (Version 9.0.0.0), which is free for students. All schematics and PCB designs were created in KiCAD, a free EDA software. 
 
 ## Documentation
-For additional technical and operational details, including design decisions, bill of materials, power and thermal analyses, and sample code, reach out to cdo32 \[at\] gatech \[dot\] edu or mgalvin \[at\] princeton \[dot\] edu for a full copy of TigerCub's technical report. 
+For additional technical and operational details, including design decisions, bill of materials, power and thermal analyses, and sample code, see the "TigerCub_Report" PDF file in the repository. Please reach out to cdo32 \[at\] gatech \[dot\] edu or mgalvin \[at\] princeton \[dot\] edu for further questions. 
 
 ## Future Work & Things to Fix
 A few features that should to be fixed/added (not an exhaustive list):
